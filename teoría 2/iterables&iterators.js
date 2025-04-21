@@ -5,13 +5,13 @@
  */
 
 
-const iterable = [1,2,3,4,5];
+// const iterable = [1,2,3,4,5];
 
 //Acceder al iterador de mi variable iterable
 
-const iterador = iterable[Symbol.iterator]();
+// const iterador = iterable[Symbol.iterator]();
 
-console.log(iterable);//[1,2,3,4,5]
+// console.log(iterable);//[1,2,3,4,5]
 
 // console.log(iterador.next());// {value: 1, done: false}
 // console.log(iterador.next());// {value: 2, done: false}
@@ -25,13 +25,13 @@ console.log(iterable);//[1,2,3,4,5]
  * con un ciclo 
  */
 
-let next = iterador.next();
+// let next = iterador.next();
 
-while(!next.done){
+// while(!next.done){
 
-    console.log(next.value);
-    next = iterador.next();
-};
+//     console.log(next.value);
+//     next = iterador.next();
+// };
 
 //tambien se pued hacer con otro tipos de valores
 
